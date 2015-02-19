@@ -1,0 +1,12 @@
+# Brincando-Python
+#Calcula o aumento de salário frente a porcentagem solicitada demonstrando o valor do aumento e o total do novo salário
+
+salario = float(input("Digite o valor do salário: "))
+porcentagem = float(input("Digite o percentual de aumento: "))
+
+porcentagem = porcentagem/100
+aumento = (salario*porcentagem)
+novosalário = (salario+(salario*porcentagem))
+
+print('O valor do aumento é: R$ %5.3f' % aumento)
+print('O valor total do novo salário é de R$ %.2f' % novosalário)
