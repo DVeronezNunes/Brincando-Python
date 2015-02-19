@@ -1,5 +1,3 @@
-# Teste-Triangulo-Python
-
 la = int(input("Digite o lado A: "))
 lb = int(input("Digite o lado B: "))
 lc = int(input("Digite o lado C: "))
