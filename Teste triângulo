@@ -1,3 +1,5 @@
+#Identifica se três lados inteiros formam um triângulo e se verdadeiro qual é a sua classificação.
+
 la = int(input("Digite o lado A: "))
 lb = int(input("Digite o lado B: "))
 lc = int(input("Digite o lado C: "))
